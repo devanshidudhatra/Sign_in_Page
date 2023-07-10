@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(disney.jpg) no-repeat center center/ cover ;
+    
+}
+.container{
+    width: 100%;
+    background-color:none;
+    justify-content: center;
+    padding: 20px 20px 20px 20px ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    list-style: none;
+}
+table{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    display: flex;
+    background-color:transparent;
+    border-radius: 15px;
+    padding: 0px 10px 10px 0px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 25px 5px ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+table caption{
+   padding-bottom: 20px;
+   padding-top: 30px;
+    font-size: 30px;
+}
+table tr{
+    padding-top: 10px;
+   
+}
+table td{
+    display: flex;
+}
+tr td{
+    padding-bottom:20px ;
+}
+.pwd .pb{
+    padding-bottom: 20px;
+}
+.cpwd .cpb{
+    padding-bottom: 50px;
+}
+input{
+    background-color: transparent;
+    outline: 2px solid white;
+    border-radius: 6px;
+    width: 380px;
+    padding: 10px 10px 10px 10px ;
+    opacity: 0.7;
+    transition: 0.5s;
+    color: whitesmoke;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-decoration-color: white;
+}
+input::placeholder{
+    color: whitesmoke;
+    opacity: 0.8;
+}
+#submit  button{
+    margin-left: 135px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: white;
+}
+#submit  button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 2px whitesmoke;
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ToDo_List"
+		},
+		{
+			"path": "../Bookalicious"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LoginPage"
+	}
+}
