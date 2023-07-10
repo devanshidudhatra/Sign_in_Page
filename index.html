@@ -8,27 +8,31 @@
   </head>
   <body id="end">
     <div class="container" id="cont">
-      <table class="box" id="tab">
-        <caption>
+      <form class="box" id="tab">
+        <label>
           Sign In
-        </caption>
-        <tr class="un"></tr>
-          <td class="ub"><input type="text" placeholder="Username" id="username"></td>
-        </tr>
-        <tr class="pwd">
+        </label>
+        <div class="un">
           &nbsp;
-          <td class="pb"><input type="password" id="password" placeholder="Password" /></td>
-        </tr>
-        <tr class="cpwd">
+          <div class="ub"><input type="text" placeholder="Username" id="username">
+          </div>
+        </div>
+          <div class="pwd">
+            &nbsp;
+            <div class="pb"><input type="password" id="password" placeholder="Password" /></td>
+            </div>
+          </div>
+        
+        <div class="cpwd">
           &nbsp;
-          <td class="cpb"><input type="password" id="cpassword" placeholder="Confirm Password" /></td>
-        </tr>
-        <tr>
-          <td id="submit">
+          <div class="cpb"><input type="password" id="cpassword" placeholder="Confirm Password" /></div>
+        </div>
+        <div>
+          <div id="submit">
             <button onclick="myFunction()">Sign In</button>
-          </td>
-        </tr>
-      </table>
+          </div>
+        </div>
+      </form>
     </div>
     <script src="script.js"></script>
   </body>
